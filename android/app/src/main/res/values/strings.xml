@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Apex Rider</string>
+    <string name="title_activity_main">Apex Rider</string>
+    <string name="package_name">com.apexrider.game</string>
+    <string name="custom_url_scheme">com.apexrider.game</string>
+</resources>

@@ -1,0 +1,9 @@
+{
+  "appId": "com.apexrider.game",
+  "appName": "Apex Rider",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0b0e13",
+    "webContentsDebuggingEnabled": false
+  }
+}
