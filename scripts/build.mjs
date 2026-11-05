@@ -17,7 +17,7 @@ if (!useCdn) {
   rmSync(join(www, 'lib'), { recursive: true, force: true });
   mkdirSync(join(lib, 'build'), { recursive: true });
   cpSync(join(threeDir, 'build', 'three.module.js'), join(lib, 'build', 'three.module.js'));
-  for (const d of ['postprocessing', 'shaders', 'objects', 'utils']) {
+  for (const d of ['postprocessing', 'shaders', 'objects', 'utils', 'math']) {
     cpSync(join(threeDir, 'examples', 'jsm', d), join(lib, 'examples', 'jsm', d), { recursive: true });
   }
   game = game
